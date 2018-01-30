@@ -1,0 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #000;
+}
+
+.text {
+	text-align: justify;
+	font-size: 45px;
+	color: #404040;
+}
