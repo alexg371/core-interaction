@@ -1,0 +1,77 @@
+* {box-sizing: border-box;}
+
+header {
+  background-color: green;
+  padding: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-item {
+  background-color: lawngreen;
+  width: 100px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.header-item:last-child {
+  margin-right: 0px;
+}
+
+main {
+  padding: 50px;
+  background-color: yellow;
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  background-color: orange;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-item-outer {
+  /*   border: 1px solid black; */
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 33.333%;
+  /* flex: 0 0 33.333% */
+  padding: 25px;
+}
+
+.container-item-inner {
+  background-color: orangered;
+  padding-bottom: 100%; /* trick to making a perfect, RESPONSIVE square */
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.double {
+  flex: 0 0 66.666%;
+}
+
+.double .container-item-inner {
+  padding-bottom: calc(50% - 25px)
+}
+
+.stack:first-child {
+  background-color: darkorange;
+}
+
+.stack {
+  padding-bottom: 50%;
+}
+
+.triple {
+  flex: 0 0 100%;
+}
+
+.triple .container-item-inner {
+  padding-bottom: calc(33.333% - 25px)
+}

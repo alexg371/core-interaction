@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: yellow;
+  padding: 50px;
+  min-height:100vh;
+  display: flex;
+}
