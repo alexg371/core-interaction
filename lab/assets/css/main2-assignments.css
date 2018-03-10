@@ -1,0 +1,30 @@
+.banner {
+	font-family: Impact;
+	font-size: 150px;
+	color: #FFF;
+	text-align: center;
+	background-color: #000;
+}
+
+.assignments {
+	color: #fff;
+	text-align: center;
+	font-family: Arial;
+	background-color: #000;
+}
+
+.clickable-link {
+	font-family: Arial;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+}
+
+body {
+	background-color: #000;
+}
+
+.back {
+	text-align: center;
+}
