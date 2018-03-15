@@ -88,7 +88,7 @@ var me = {
   nativeNewYorker: true
 };
 console.log('me:', me);
-console.log("me['name']:", me['name']); /
+console.log("me['name']:", me['name']);
 console.log('me.name:', me.name);
 
 console.log('');
@@ -116,3 +116,52 @@ console.log('');
 var addNumbers = function(number1, number2) {
   return number1 + number2
 }
+
+//JS CHECKIN HOMEWORK
+
+var squared = function (number) {
+  return number * number
+};
+
+var describeMe = function (me) {
+  return 'My name is ' + me.name + '! I am ' + me.age + ' years old. If you asked me if I was a native New Yorker, my response would be: ' + me.nativeNewYorker + '.'
+};
+
+console.log('');
+
+//CONDITIONAL STATEMENTS
+console.log('Conditional Statements -');
+
+if (me.age > 21) {
+  console.log('party time')
+} else if (me.age < 5) {
+  console.log('why are you here?')
+} else {
+  console.log('not quite yet')
+};
+
+console.log('');
+
+//LOOPS
+console.log('Loops -');
+
+var hamburgers = 0
+for (var i = 0; hamburgers < 10; i++) {
+  console.log(hamburgers + ' hamburger(s)')
+  hamburgers++;
+}
+
+console.log('');
+
+for (var i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+console.log('how many licks does it take to get to the center of a tootsie pop?')
+for (var licks = 1; licks <= 4; licks++) {
+    if (licks == 4) {
+      console.log('*CRUNCH*')
+    } else {
+      console.log(licks)
+    }
+  }

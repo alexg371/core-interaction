@@ -1,0 +1,27 @@
+.block {
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+  margin: 10px 0px;
+  transition: .25s padding;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.block:hover {
+  border: 1px solid black;
+}
+
+.block.is-active {
+  padding: 40px;
+  border-radius: 20px;
+  border-color: red;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+}
