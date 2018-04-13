@@ -1,0 +1,43 @@
+/* GLOBAL CSS */
+/* CSS from here should be applied to all pages */
+
+body {
+  background-color: black;
+}
+
+.opening-page-title {
+  color: white;
+  opacity: 0.7;
+  font-size: 190px;
+  margin-left: 75px;
+}
+
+.opening-page-description {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.opening-page-description:hover {
+  color: white;
+}
+
+.opening-page-navigation {
+  font-size: 25px;
+  text-align: center;
+  font-family: Times;
+}
+
+.btc-button {
+  text-align: center;
+}
+
+.text-of-posts {
+  text-align: justify;
+	font-size: 45px;
+	color: #737373;
+}
+
+.home-button {
+  text-align: center;
+}

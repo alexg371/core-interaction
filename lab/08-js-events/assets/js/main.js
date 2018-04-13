@@ -1,4 +1,4 @@
-//method is a function inside of an object
+// method is a function inside of an object
 
 // THE DOC ELEMENT
 console.dir(document)
