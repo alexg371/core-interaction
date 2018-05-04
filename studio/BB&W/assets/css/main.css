@@ -1,0 +1,122 @@
+/* GLOBAL CSS */
+/* CSS from here should be applied to all pages */
+
+body {
+  background-color: black;
+}
+
+.opening-page-title {
+  color: black;
+  opacity: 0.7;
+  font-size: 190px;
+  margin-left: 75px;
+  margin-top: 40px;
+}
+
+#test p {
+    opacity: 0;
+    color:red;
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}​
+
+----
+
+.container {
+  position: relative;
+  width: 50%;
+  top: 20px;
+  left: 20px;
+
+}
+
+.image {
+  display: block;
+  width: 20%;
+  height: auto;
+  ;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.about-text {
+  color: black;
+  font-size: 25px;
+  position: absolute;
+  line-height: 1
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -135px;
+  margin-left: -110px;
+  z-index: 1;
+}
+
+
+----
+
+.opening-page-description {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.opening-page-description:hover {
+  color: white;
+}
+
+.opening-page-navigation {
+  font-size: 25px;
+  text-align: center;
+  font-family: Times;
+}
+
+.btg-button {
+  text-align: center;
+}
+
+.text-of-posts {
+  text-align: justify;
+	font-size: 40px;
+	color: #5C5C5C;
+  line-height: 1.35em;
+}
+
+.home-button {
+    align-items: center;
+    justify-content: center;
+}
+
+.button-link {
+  align-items: center;
+  justify-content: center;
+}

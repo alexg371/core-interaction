@@ -1,0 +1,17 @@
+/* PAGE SPECIFIC CSS */
+/* Delete this file if you don't need it */
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+p {
+  line-height: 1.35em;
+  font-size: 43px;
+  display: flex;
+  margin: 0;
+}

@@ -1,0 +1,19 @@
+/* PAGE SPECIFIC CSS */
+/* Delete this file if you don't need it */
+
+* { box-sizing: border-box; }
+
+.search {
+   position:absolute;
+    width:100px;
+    height:100px;
+    left:50%;
+    top:50%;
+    margin-left:-50px;
+    margin-top:-50px;
+    display: inline-block;
+}
+
+.dropdown:hover .submit {
+    background-color: black;
+}
