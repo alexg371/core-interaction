@@ -56,8 +56,6 @@ Number.prototype.map = function (in_min, in_max, out_min, out_max) {
 
 
 
-
-
 // UNSPLASHED API
 
 var dropdown = document.querySelector('.dropdown');
